@@ -17,7 +17,8 @@
             Enter your age: <input type ="number" name="age" value="${age}"><br>
             <input type="submit" value="Age next birthday">
         </form>
-            <p>${message}</p>
-            
+        <p>${message}</p>
+        <a href="arethmetic">Arithmetic Calculator</a>
+
     </body>
 </html>
