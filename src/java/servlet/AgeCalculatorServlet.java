@@ -29,10 +29,10 @@ public class AgeCalculatorServlet extends HttpServlet {
        
        
         String age = request.getParameter("age");
-        request.setAttribute("age", age);
+     
         
         
-      if (age == null || age.equals("") ){
+      if (age == null || age.equals("")){
           
           request.setAttribute("message", "You must give your current age");
           
