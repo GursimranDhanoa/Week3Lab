@@ -17,6 +17,7 @@
             Enter your age: <input type ="number" name="age" value="${age}"><br>
             <input type="submit" value="Age next birthday">
         </form>
-            <div name="test"></div>
+            <p>${message}</p>
+            
     </body>
 </html>
